@@ -1,10 +1,31 @@
 {
-  "name": "opencode-router",
+  "name": "routetheoc",
   "version": "1.0.0",
+  "description": "OpenAI-compatible proxy router for OpenCode free models",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arun-raze19/routetheoc.git"
+  },
+  "keywords": [
+    "openai",
+    "proxy",
+    "router",
+    "opencode",
+    "free-models",
+    "api",
+    "llm"
+  ],
+  "author": "Arun Raze",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arun-raze19/routetheoc/issues"
+  },
+  "homepage": "https://github.com/arun-raze19/routetheoc#readme",
   "dependencies": {
     "undici": "^7.0.0"
   }
