@@ -1,0 +1,11 @@
+{
+  "name": "opencode-router",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "undici": "^7.0.0"
+  }
+}
